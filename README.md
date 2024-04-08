@@ -1,3 +1,21 @@
+# AxCell as a baseline system for SimpleText Task 4 at CLEF 2024
+## Requirements
+
+To create a [conda](https://www.anaconda.com/distribution/) environment named `axcell` and install requirements run:
+
+```setup
+conda env create -f environment.yml
+```
+
+Additionally, `axcell` requires `docker` (that can be run without `sudo`). Run `scripts/pull_docker_images.sh` to download necessary images.
+
+## Instructions to regenerate the evaluation results on SOTA dataset
+Open the [evaluation_sota](notebooks/evaluation_sota.ipynb) notebook and follow the directions there
+
+<br/><br/><br/><br/>
+_Follows the original README_
+<br/><br/>
+
 # AxCell: Automatic Extraction of Results from Machine Learning Papers
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/axcell-automatic-extraction-of-results-from/scientific-results-extraction-on-pwc)](https://paperswithcode.com/sota/scientific-results-extraction-on-pwc?p=axcell-automatic-extraction-of-results-from)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/axcell-automatic-extraction-of-results-from/scientific-results-extraction-on-nlp-tdms-exp)](https://paperswithcode.com/sota/scientific-results-extraction-on-nlp-tdms-exp?p=axcell-automatic-extraction-of-results-from)
